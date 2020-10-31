@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+.myDiv{
+	width: 100px;
+	height: 100px;
+	
+	
+}
+.mydiv{
+	background-color: blue;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-out;
+	transform-origin: 1 1;
+}
+.myDiv1{
+	background-color: green;
+	transform: rotateY(90deg);
+	transform-origin: 0 0;
+
+}
+
+.myDiv:hover .mydiv{
+	
+	transform: rotateY(-90deg);
+	cursor: pointer;
+	
+
+}
+
+
+</style>
+<body>
+	<div class="myDiv">
+		<div class="mydiv">
+			<div class="mydiv2">
+				hello
+			
+			</div>
+			<div class="myDiv1">
+			hi
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>
